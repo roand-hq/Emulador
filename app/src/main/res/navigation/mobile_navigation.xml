@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_inicio">
+
+    <fragment
+        android:id="@+id/navigation_inicio"
+        android:name="rodrigo.hurtado.emulador_20220224_rodrigo.ui.home.HomeFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_perfil"
+        android:name="rodrigo.hurtado.emulador_20220224_rodrigo.ui.dashboard.DashboardFragment"
+        android:label="Perfil"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_informacion"
+        android:name="rodrigo.hurtado.emulador_20220224_rodrigo.ui.notifications.NotificationsFragment"
+        android:label="Información"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/fragment_contacto"
+        android:name="rodrigo.hurtado.emulador_20220224_rodrigo.fragment_contacto"
+        android:label="fragment_contacto"
+        tools:layout="@layout/fragment_contacto" />
+    <fragment
+        android:id="@+id/perfil1"
+        android:name="rodrigo.hurtado.emulador_20220224_rodrigo.perfil1"
+        android:label="fragment_perfil1"
+        tools:layout="@layout/fragment_perfil1" />
+    <fragment
+        android:id="@+id/informacion1"
+        android:name="rodrigo.hurtado.emulador_20220224_rodrigo.informacion1"
+        android:label="fragment_informacion1"
+        tools:layout="@layout/fragment_informacion1" />
+</navigation>
